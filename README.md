@@ -1,6 +1,5 @@
-## Run code from main.ipynb
-...
-## Description of certain functions
+### Run code from main.ipynb
+### Description of functions
 
 `def lyapk_vs_loss(...)`
 
@@ -47,3 +46,7 @@
 
     -> Saves result to op_filename, the Learning Rate and Lyapunov Exponent.
 ---
+### Reference
+Please cite
+
+Copyright (c) 2024 Tirthankar Mittra

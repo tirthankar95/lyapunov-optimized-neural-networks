@@ -13,7 +13,7 @@ def get_lyapk(filename) -> int:
     l_sum, l_cnt = 0, 0
     for i in range(1, len(dist)):
         if dist[i] > 1e9: break 
-        l_sum += math.log(abs(dist[i]/dist[i-1]))
+        l_sum += math.log(dist[i]/dist[0])
         l_cnt += 1 
     return l_sum/l_cnt
 
