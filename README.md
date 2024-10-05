@@ -24,16 +24,19 @@
     -> How distance evolves over epochs.
 
 ---
+
 `def plot_lyapk(...)`
 
     -> How lyapunov exponents change over epochs.
 
 ---
+
 `def plot_loss(...)`
 
     -> How loss of i-th point (parent/children) changes over epochs.
 
 ---
+
 `def run(obj, filename, op_filename, lb, ub, n_points):`
 
     '''
@@ -46,7 +49,8 @@
 
     -> Saves result to op_filename, the Learning Rate and Lyapunov Exponent.
 ---
+
 ### Reference
-Please cite
+
 
 Copyright (c) 2024 Tirthankar Mittra
