@@ -1,3 +1,6 @@
+# Description
+Training large deep neural networks is resource intensive. This study investigates whether Lyapunov exponents can accelerate this process by aiding in the selection of hyperparameters. To study this I formulate an optimization problem using neural networks with different activation functions in the hidden layers. By initializing model weights with different random seeds, I calculate the Lyapunov exponent while performing traditional gradient descent on these model weights. The findings demonstrate that variations in the learning rate can induce chaotic changes in model weights. I also show that activation functions with more negative Lyapunov exponents exhibit better convergence properties. Additionally, the study also demonstrates that Lyapunov exponents can be utilized to select effective initial model weights for deep neural networks, improving the optimization process.
+
 ### Run code from main.ipynb
 ### Description of functions
 
